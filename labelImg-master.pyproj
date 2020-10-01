@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7736c8b6-8536-4162-bf11-5c25fa1fd629}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>labelImg.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="combobox.py" />
+    <Compile Include="labelImg.py" />
+    <Compile Include="libs\canvas.py" />
+    <Compile Include="libs\colorDialog.py" />
+    <Compile Include="libs\constants.py" />
+    <Compile Include="libs\hashableQListWidgetItem.py" />
+    <Compile Include="libs\labelDialog.py" />
+    <Compile Include="libs\labelFile.py" />
+    <Compile Include="libs\pascal_voc_io.py" />
+    <Compile Include="libs\settings.py" />
+    <Compile Include="libs\shape.py" />
+    <Compile Include="libs\stringBundle.py" />
+    <Compile Include="libs\toolBar.py" />
+    <Compile Include="libs\ustr.py" />
+    <Compile Include="libs\utils.py" />
+    <Compile Include="libs\yolo_io.py" />
+    <Compile Include="libs\zoomWidget.py" />
+    <Compile Include="libs\__init__.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="tests\test_io.py" />
+    <Compile Include="tests\test_qt.py" />
+    <Compile Include="tests\test_settings.py" />
+    <Compile Include="tests\test_stringBundle.py" />
+    <Compile Include="tests\test_utils.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\predefined_classes.txt" />
+    <Content Include="demo\demo.jpg" />
+    <Content Include="demo\demo3.jpg" />
+    <Content Include="demo\demo4.png" />
+    <Content Include="demo\demo5.png" />
+    <Content Include="requirements\requirements-linux-python3.txt" />
+    <Content Include="resources\icons\app.png" />
+    <Content Include="resources\icons\app.svg" />
+    <Content Include="resources\icons\cancel.png" />
+    <Content Include="resources\icons\close.png" />
+    <Content Include="resources\icons\color.png" />
+    <Content Include="resources\icons\color_line.png" />
+    <Content Include="resources\icons\copy.png" />
+    <Content Include="resources\icons\delete.png" />
+    <Content Include="resources\icons\done.png" />
+    <Content Include="resources\icons\done.svg" />
+    <Content Include="resources\icons\edit.png" />
+    <Content Include="resources\icons\expert1.png" />
+    <Content Include="resources\icons\expert2.png" />
+    <Content Include="resources\icons\eye.png" />
+    <Content Include="resources\icons\feBlend-icon.png" />
+    <Content Include="resources\icons\file.png" />
+    <Content Include="resources\icons\fit-width.png" />
+    <Content Include="resources\icons\fit-window.png" />
+    <Content Include="resources\icons\fit.png" />
+    <Content Include="resources\icons\format_voc.png" />
+    <Content Include="resources\icons\format_yolo.png" />
+    <Content Include="resources\icons\help.png" />
+    <Content Include="resources\icons\labels.png" />
+    <Content Include="resources\icons\labels.svg" />
+    <Content Include="resources\icons\new.png" />
+    <Content Include="resources\icons\next.png" />
+    <Content Include="resources\icons\objects.png" />
+    <Content Include="resources\icons\open.png" />
+    <Content Include="resources\icons\open.svg" />
+    <Content Include="resources\icons\prev.png" />
+    <Content Include="resources\icons\quit.png" />
+    <Content Include="resources\icons\resetall.png" />
+    <Content Include="resources\icons\save-as.png" />
+    <Content Include="resources\icons\save-as.svg" />
+    <Content Include="resources\icons\save.png" />
+    <Content Include="resources\icons\save.svg" />
+    <Content Include="resources\icons\undo-cross.png" />
+    <Content Include="resources\icons\undo.png" />
+    <Content Include="resources\icons\verify.png" />
+    <Content Include="resources\icons\zoom-in.png" />
+    <Content Include="resources\icons\zoom-out.png" />
+    <Content Include="resources\icons\zoom.png" />
+    <Content Include="tests\test.512.512.bmp" />
+    <Content Include="tests\臉書.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data" />
+    <Folder Include="demo" />
+    <Folder Include="libs" />
+    <Folder Include="requirements" />
+    <Folder Include="resources\" />
+    <Folder Include="resources\icons" />
+    <Folder Include="tests" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
