@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#Guiqiu start to persenalize the label
 # -*- coding: utf-8 -*-
 import argparse
 import codecs
